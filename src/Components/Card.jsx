@@ -12,13 +12,13 @@ function Card({ onEditClick }) {
             </div>
             <div
 
-                className="block md:min-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                className="block w-full md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
             >
                 <div className='grid grid-cols-12 space-x-4 items-center '>
                     <div className='col-span-12 md:col-span-5 lg:col-span-5'>
                         <div className='text-center'>
                             <div className='flex justify-center'>
-                                <img className="rounded w-44" src="/vite.svg" alt="" />
+                                <img className="rounded w-40" src="/vite.svg" alt="" />
                             </div>
 
                         </div>

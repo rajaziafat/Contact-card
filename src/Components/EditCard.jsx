@@ -26,7 +26,7 @@ function EditCard({ onSaveClick }) {
 
         <>
 
-       
+
 
             <div className='flex justify-end pb-4 ' onClick={onSaveClick}>
 
@@ -35,13 +35,13 @@ function EditCard({ onSaveClick }) {
                 </button>
             </div>
 
-            <div className="block md:max-w-[700px] md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20">
+            <div className="block w-full md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20">
                 <div className='grid grid-cols-12 space-x-4 items-center'>
                     <div className='col-span-12 md:col-span-5 lg:col-span-5'>
                         <div className='text-center'>
                             <div className='flex justify-center'>
                                 {/* Display uploaded image */}
-                                <img className="rounded w-44 cursor-pointer hover:opacity-50 duration-200 ease-in-out" src={image} alt="" onClick={() => fileInputRef.current.click()} />
+                                <img className="rounded w-40 cursor-pointer hover:opacity-50 duration-200 ease-in-out" src={image} alt="" onClick={() => fileInputRef.current.click()} />
                                 {/* Hidden label to trigger file input */}
                                 <label className="hidden">
                                     <input ref={fileInputRef} type="file" onChange={handleImageChange} accept="image/*" />
@@ -50,7 +50,7 @@ function EditCard({ onSaveClick }) {
                         </div>
                     </div>
                     <div className="border-l h-full opacity-40"></div>
-                    <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start '>
+                    <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start max-w-[314px] '>
                         <div className='space-y-3 px-2'>
                             <div className='flex items-center space-x-4'>
                                 <span className='bg-transparent border px-[13px] py-2 border-white rounded-full text-white hover:bg-white hover:text-[#333] duration-200 ease-in-out'>
@@ -77,7 +77,7 @@ function EditCard({ onSaveClick }) {
                                 {/* Editable input for email and website */}
                                 <div>
                                     <input type="email" className="text-white w-full text-md bg-transparent border-none outline-none" defaultValue="mail@pascalheimlicher.com" />
-                                    <input type="url" className="text-white w-full text-sm bg-transparent border-none outline-none mt-3" defaultValue="http://www.caoneag.com" />
+                                    <input type="url" className="text-white w-full text-sm bg-transparent border-none outline-none " defaultValue="http://www.caoneag.com" />
                                 </div>
                             </div>
                             <div className='flex items-center space-x-4 max-w-[300px]'>
@@ -85,7 +85,11 @@ function EditCard({ onSaveClick }) {
                                     <i className="fa-solid fa-location-dot"></i>
                                 </span>
                                 {/* Editable input for address */}
-                                <input type="text" className="text-white w-full text-md bg-transparent border-none outline-none" defaultValue="Sonnenbergstrasse 74, 8603 Schwerzenbach , Switzerland" />
+                                <textarea
+                                    rows="2"
+                                    className="text-white w-full text-md bg-transparent border-none outline-none max-w-[300px]">
+                                    Sonnenbergstrasse 74, 8603 Schwerzenbach, Switzerland
+                                </textarea>
                             </div>
                         </div>
                     </div>
