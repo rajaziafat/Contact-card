@@ -18,7 +18,7 @@ function Card({ onEditClick }) {
                     <div className='col-span-12 md:col-span-5 lg:col-span-5'>
                         <div className='text-center'>
                             <div className='flex justify-center'>
-                                <img className="rounded w-40" src="/logo.png" alt="" />
+                                <img className="rounded w-40" src="/vite.svg" alt="" />
                             </div>
 
                         </div>
