@@ -50,7 +50,7 @@ function EditCard({ onSaveClick }) {
                         </div>
                     </div>
                     <div className="border-l h-full opacity-40"></div>
-                    <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start max-w-[314px] '>
+                    <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
                         <div className='space-y-3 px-2'>
                             <div className='flex items-center space-x-4'>
                                 <span className='bg-transparent border px-[13px] py-2 border-white rounded-full text-white hover:bg-white hover:text-[#333] duration-200 ease-in-out'>
