@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 function EditCard({ onSaveClick }) {
 
 
-    const [image, setImage] = useState("/vite.svg");
+    const [image, setImage] = useState("/logo.png");
     const fileInputRef = useRef(null);
 
     // Function to handle image change
