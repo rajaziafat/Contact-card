@@ -19,7 +19,7 @@ function Card({ onEditClick }) {
                         <div className='space-y-3 px-2'>
                             <div className='flex items-center space-x-4'>
                                 <div>
-                                    <h2 className='text-white text-xl font-medium  '>CA ONE AG</h2>
+                                    <h2 className='text-white text-xl font-medium  '>Pascal Heimlicher</h2>
                                     <h2 className='text-white text-md  '>Aldo Luck</h2>
 
                                 </div>

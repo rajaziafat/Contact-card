@@ -46,7 +46,7 @@ function EditCard({ onSaveClick }) {
                                     <div className='flex items-center space-x-4'>
 
                                         <div className=''>
-                                            <input type="text" className="text-white w-full text-lg bg-transparent font-medium border-none outline-none" defaultValue="CA ONE AG" />
+                                            <input type="text" className="text-white w-full text-lg bg-transparent font-medium border-none outline-none" defaultValue="Pascal Heimlicher" />
 
                                             <input type="text" className="text-white w-full text-md bg-transparent border-none outline-none" defaultValue="Aldo Luck" />
                                         </div>
