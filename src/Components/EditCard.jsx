@@ -31,15 +31,17 @@ function EditCard({ onSaveClick }) {
             {isLoading ? (
                 <div className="loader text-white">Loading...</div>
             ) : (
-                <div>
 
-                    <div className="block w-full md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20">
+<div
+
+className="block w-full md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+>
 
 
 
                         <div className='grid grid-cols-12 space-x-4 items-center px-4'>
 
-                            <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
+                            <div className='col-span-6 md:col-span-6 lg:col-span-6 flex justify-start max-w-[180px] mt-3 md:mt-0 '>
                                 <div className='space-y-3 px-2'>
 
 
@@ -79,7 +81,7 @@ function EditCard({ onSaveClick }) {
 
                                  
 
-                                    <div className='flex items-center space-x-4 min-w-[200px]'>
+                                    <div className='flex items-center space-x-4 max-w-[300px]'>
                                         <i className="fa-solid fa-location-dot text-white"></i>
                                         {/* Editable input for address */}
                                         <textarea
@@ -132,7 +134,6 @@ function EditCard({ onSaveClick }) {
                             </div>
                         </div>
                     </div>
-                </div>
             )}
         </>
     );

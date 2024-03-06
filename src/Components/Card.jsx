@@ -39,7 +39,7 @@ function Card({ onEditClick }) {
                                 Edit
                             </button>
                         </div>
-                     
+
 
                     </div>
 
@@ -52,7 +52,7 @@ function Card({ onEditClick }) {
                     <div className='col-span-12 md:col-span-6 lg:col-span-6  mt-3 md:mt-0 '>
 
                         <div className='space-y-3 px-2'>
-                          
+
                             <div className='flex items-center space-x-4 max-w-[300px]'>
                                 <i className="fa-solid fa-location-dot text-white"></i>
                                 <div>
@@ -102,7 +102,7 @@ function Card({ onEditClick }) {
 
 
                     <div className='col-span-12 md:col-span-6 lg:col-span-6 mt-3 md:mt-0'>
-                       
+
                         <div className='text-center'>
                             <div className='flex justify-center md:justify-end'>
                                 <img className="rounded w-40" src="/vite.svg" alt="" />
