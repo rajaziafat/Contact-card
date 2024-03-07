@@ -34,7 +34,7 @@ function EditCard({ onSaveClick }) {
 
                 <div
 
-                    className="block max-w-[400px] md:max-w-[500px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                    className="block max-w-[350px] md:max-w-[500px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
                 >
 
 
@@ -43,7 +43,7 @@ function EditCard({ onSaveClick }) {
 
 
 
-                    <div className='grid grid-cols-12 space-x-4 items-center px-4'>
+                    <div className='grid grid-cols-12 space-x-4 items-center '>
                         <div className='col-span-12 md:col-span-5 lg:col-span-5 order-last md:order-none'>
 
                             <div className='text-center'>
