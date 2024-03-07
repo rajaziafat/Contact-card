@@ -27,7 +27,7 @@ function Card({ onEditClick }) {
                     <div className='col-span-12 md:col-span-7 lg:col-span-7  mt-3 md:mt-0 '>
 
 
-                        <div className='grid grid-cols-12 space-x-2 items-center w-full  '>
+                        <div className='grid grid-cols-12 space-x-2 items-center   '>
 
 
                             <div className='col-span-6 md:col-span-8 lg:col-span-8  mt-3 md:mt-0 max-w-[300px]'>

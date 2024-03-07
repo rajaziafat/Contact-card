@@ -43,7 +43,7 @@ function EditCard({ onSaveClick }) {
 
 
 
-                    <div className='grid grid-cols-12 space-x-4 items-center '>
+                    <div className='grid grid-cols-12 space-x-2 items-center '>
                         <div className='col-span-12 md:col-span-5 lg:col-span-5 order-last md:order-none'>
 
                             <div className='text-center'>
@@ -60,19 +60,19 @@ function EditCard({ onSaveClick }) {
                         <div className='col-span-12 md:col-span-7 lg:col-span-7 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
 
 
-                            <div className='space-y-2.5 px-2'>
+                            <div className='space-y-2 pr-2  '>
                                 <div className='grid grid-cols-12 space-x-4 items-center '>
 
                                     <div className='col-span-6 md:col-span-7 lg:col-span-7  '>
-                                        <div className='space-y-3 '>
+                                        <div className=' '>
 
 
                                             <div className='flex items-center w-full'>
 
                                                 <div className=''>
-                                                    <input type="text" className="text-white w-full text-white text-xl font-medium  bg-transparent  border-none outline-none" defaultValue="Pascal Heimlicher" />
+                                                    <input type="text" className="text-white w-full p-0 text-white text-xl font-medium  bg-transparent  border-none outline-none" defaultValue="Pascal Heimlicher" />
 
-                                                    <input type="text" className="text-white w-full text-md bg-transparent border-none outline-none" defaultValue="Aldo Luck" />
+                                                    <input type="text" className="text-white w-full p-0 text-md bg-transparent border-none outline-none" defaultValue="Aldo Luck" />
                                                 </div>
                                             </div>
 
