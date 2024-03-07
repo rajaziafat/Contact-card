@@ -60,10 +60,10 @@ function EditCard({ onSaveClick }) {
                         <div className='col-span-12 md:col-span-7 lg:col-span-7 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
 
 
-                            <div className='space-y-3 px-2'>
+                            <div className='space-y-2.5 px-2'>
                                 <div className='grid grid-cols-12 space-x-4 items-center '>
 
-                                    <div className='col-span-6 md:col-span-7 lg:col-span-7  mt-3 md:mt-0  '>
+                                    <div className='col-span-6 md:col-span-7 lg:col-span-7  '>
                                         <div className='space-y-3 '>
 
 
@@ -84,7 +84,7 @@ function EditCard({ onSaveClick }) {
 
 
                                     <div className='col-span-5 md:col-span-5 lg:col-span-5'>
-                                        <div className='flex justify-end ' >
+                                        <div className='flex justify-end pb-5 ' >
                                             <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg' onClick={onSaveClick}>
                                                 Save
                                             </button >

@@ -49,7 +49,7 @@ function Card({ onEditClick }) {
 
 
                             <div className='col-span-6 md:col-span-4 lg:col-span-4 '>
-                                <div className='flex justify-end pb-4 ' >
+                                <div className='flex justify-end pb-5 ' >
 
                                     <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg' onClick={onEditClick}>
                                         Edit
