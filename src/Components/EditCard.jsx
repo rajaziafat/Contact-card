@@ -57,7 +57,7 @@ function EditCard({ onSaveClick }) {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-6 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
+                        <div className='col-span-12 md:col-span-7 lg:col-span-7 flex justify-start max-w-[314px] mt-3 md:mt-0 '>
 
 
                             <div className='space-y-3 px-2'>
