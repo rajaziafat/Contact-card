@@ -7,7 +7,7 @@ function Card({ onEditClick }) {
 
             <div
 
-                className="block w-full md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                className="block w-full md:max-w-[600px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
             >
 
 

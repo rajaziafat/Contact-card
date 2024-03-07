@@ -34,7 +34,7 @@ function EditCard({ onSaveClick }) {
 
                 <div
 
-                    className="block max-w-[400px] md:max-w-[700px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                    className="block max-w-[400px] md:max-w-[600px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
                 >
 
 
