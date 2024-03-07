@@ -34,7 +34,7 @@ function EditCard({ onSaveClick }) {
 
                 <div
 
-                    className="block max-w-[400px] md:max-w-[590px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                    className="block max-w-[400px] md:max-w-[500px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
                 >
 
 
@@ -44,7 +44,7 @@ function EditCard({ onSaveClick }) {
 
 
                     <div className='grid grid-cols-12 space-x-4 items-center px-4'>
-                        <div className='col-span-12 md:col-span-6 lg:col-span-6 order-last md:order-none'>
+                        <div className='col-span-12 md:col-span-5 lg:col-span-5 order-last md:order-none'>
 
                             <div className='text-center'>
                                 <div className='flex justify-center '>
@@ -61,13 +61,13 @@ function EditCard({ onSaveClick }) {
 
 
                             <div className='space-y-3 px-2'>
-                                <div className='grid grid-cols-12 space-x-4 items-center px-4'>
+                                <div className='grid grid-cols-12 space-x-4 items-center '>
 
-                                    <div className='col-span-6 md:col-span-6 lg:col-span-6  mt-3 md:mt-0  '>
-                                        <div className='space-y-3 px-2'>
+                                    <div className='col-span-6 md:col-span-7 lg:col-span-7  mt-3 md:mt-0  '>
+                                        <div className='space-y-3 '>
 
 
-                                            <div className='flex items-center space-x-4'>
+                                            <div className='flex items-center w-full'>
 
                                                 <div className=''>
                                                     <input type="text" className="text-white w-full text-white text-xl font-medium  bg-transparent  border-none outline-none" defaultValue="Pascal Heimlicher" />
@@ -83,8 +83,8 @@ function EditCard({ onSaveClick }) {
 
 
 
-                                    <div className='col-span-6 md:col-span-6 lg:col-span-6'>
-                                        <div className='flex justify-end pb-4 ' >
+                                    <div className='col-span-5 md:col-span-5 lg:col-span-5'>
+                                        <div className='flex justify-end ' >
                                             <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg' onClick={onSaveClick}>
                                                 Save
                                             </button >
