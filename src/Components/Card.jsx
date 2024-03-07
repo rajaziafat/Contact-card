@@ -11,46 +11,57 @@ function Card({ onEditClick }) {
             >
 
 
-                <div className='grid grid-cols-12 space-x-2 items-center  px-5'>
+
+                <div className='grid grid-cols-12 space-x-2 items-center px-2'>
+
+                    <div className='col-span-12 md:col-span-6 lg:col-span-6 mt-3 md:mt-0 order-last md:order-none'>
+
+                        <div className='text-center'>
+                            <div className='flex justify-center '>
+                                <img className="rounded w-40" src="/vite.svg" alt="" />
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className='col-span-12 md:col-span-6 lg:col-span-6  mt-3 md:mt-0 '>
 
 
-                    <div className='col-span-6 md:col-span-6 lg:col-span-6  mt-3 md:mt-0 '>
+                        <div className='grid grid-cols-12 space-x-2 items-center  px-5'>
 
-                        <div className='space-y-3 px-2'>
-                            <div className='flex items-center space-x-4'>
-                                <div>
-                                    <h2 className='text-white text-xl font-medium  '>Pascal Heimlicher</h2>
-                                    <h2 className='text-white text-md  '>Aldo Luck</h2>
 
+                            <div className='col-span-6 md:col-span-6 lg:col-span-6  mt-3 md:mt-0 '>
+
+                                <div className='space-y-3 px-2'>
+                                    <div className='flex items-center space-x-4'>
+                                        <div>
+                                            <h2 className='text-white text-xl font-medium  whitespace-nowrap '>Pascal Heimlicher</h2>
+                                            <h2 className='text-white text-md  '>Aldo Luck</h2>
+
+                                        </div>
+
+
+                                    </div>
                                 </div>
 
 
                             </div>
+
+
+                            <div className='col-span-6 md:col-span-6 lg:col-span-6'>
+                                <div className='flex justify-end pb-4 ' >
+
+                                    <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg' onClick={onEditClick}>
+                                        Edit
+                                    </button>
+                                </div>
+
+
+                            </div>
+
+
+
                         </div>
-
-
-                    </div>
-
-
-                    <div className='col-span-6 md:col-span-6 lg:col-span-6'>
-                        <div className='flex justify-end pb-4 ' onClick={onEditClick}>
-
-                            <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg'>
-                                Edit
-                            </button>
-                        </div>
-
-
-                    </div>
-
-
-
-                </div>
-                <div className='grid grid-cols-12 space-x-2 items-center  px-5'>
-
-
-                    <div className='col-span-12 md:col-span-6 lg:col-span-6  mt-3 md:mt-0 '>
-
                         <div className='space-y-3 px-2'>
 
                             <div className='flex items-center space-x-4 max-w-[300px]'>
@@ -101,16 +112,7 @@ function Card({ onEditClick }) {
                     </div>
 
 
-                    <div className='col-span-12 md:col-span-6 lg:col-span-6 mt-3 md:mt-0'>
 
-                        <div className='text-center'>
-                            <div className='flex justify-center md:justify-end'>
-                                <img className="rounded w-40" src="/vite.svg" alt="" />
-                            </div>
-
-                        </div>
-
-                    </div>
 
 
 
