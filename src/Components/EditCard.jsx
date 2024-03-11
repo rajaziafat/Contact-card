@@ -70,7 +70,7 @@ function EditCard({ onSaveClick }) {
                                             <div className='flex items-center w-full'>
 
                                                 <div className='w-full'>
-                                                    <input type="text" className="text-white w-full p-0 text-xl font-medium bg-transparent border-none outline-none border-b border-white"
+                                                    <input type="text" className="text-white w-full p-0 text-xl font-medium bg-transparent border-t-none border-l-none border-r-none  outline-none border-b "
                                                         defaultValue="Pascal Heimlicher" />
 
                                                     <input type="text" className="text-white  w-full p-0 text-md bg-transparent border-b outline-none" defaultValue="Aldo Luck" />
