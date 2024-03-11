@@ -70,9 +70,9 @@ function EditCard({ onSaveClick }) {
                                             <div className='flex items-center w-full'>
 
                                                 <div className='w-full'>
-                                                    <input type="text" className="text-white w-full  p-0  text-xl font-medium rounded-none  bg-transparent  border-b " defaultValue="Pascal Heimlicher" />
+                                                    <input type="text" className="text-white w-full outline-none  p-0  text-xl font-medium rounded-none  bg-transparent  border-b " defaultValue="Pascal Heimlicher" />
 
-                                                    <input type="text" className="text-white  w-full p-0 text-md rounded-none bg-transparent border-b " defaultValue="Aldo Luck" />
+                                                    <input type="text" className="text-white  w-full outline-none p-0 text-md rounded-none bg-transparent border-b " defaultValue="Aldo Luck" />
                                                 </div>
                                             </div>
 
@@ -85,7 +85,7 @@ function EditCard({ onSaveClick }) {
 
                                     <div className='col-span-5 md:col-span-5 lg:col-span-5'>
                                         <div className='flex justify-end pb-5 ' >
-                                            <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg' onClick={onSaveClick}>
+                                            <button className='px-4 py-2 bg-[#22c55e] text-white rounded-lg ' onClick={onSaveClick}>
                                                 Save
                                             </button >
                                         </div>
@@ -100,7 +100,7 @@ function EditCard({ onSaveClick }) {
                                     {/* Editable input for address */}
                                     <textarea
                                         rows="2"
-                                        className="text-white  text-md bg-transparent border-b rounded-none  w-full md:min-w-[300px]">
+                                        className="text-white  text-md bg-transparent border-b rounded-none  outline-none w-full md:min-w-[300px]">
                                         Sonnenbergstrasse 74, 8603 Schwerzenbach, Switzerland
                                     </textarea>
                                 </div>
@@ -109,13 +109,13 @@ function EditCard({ onSaveClick }) {
                                 <div className='flex items-center space-x-4 w-full'>
                                     <i className="fa-solid fa-phone text-white"></i>
                                     {/* Editable input for phone */}
-                                    <input type="text" className="text-white w-full  text-md bg-transparent border-b  rounded-none" defaultValue="123456789012" />
+                                    <input type="text" className="text-white w-full  text-md bg-transparent border-b  rounded-none outline-none" defaultValue="123456789012" />
                                 </div>
                                 <div className='flex items-center space-x-4 w-full'>
                                     <i className="fa-solid fa-envelope text-white"></i>
                                     {/* Editable input for email and website */}
                                  
-                                        <input type="email" className="text-white w-full text-md bg-transparent border-b  rounded-none" defaultValue="mail@pascalheimlicher.com" />
+                                        <input type="email" className="text-white w-full text-md bg-transparent border-b  rounded-none outline-none" defaultValue="mail@pascalheimlicher.com" />
                                   
                                 </div>
 
@@ -124,7 +124,7 @@ function EditCard({ onSaveClick }) {
                                     <i className="fa-solid fa-globe text-white"></i>
                                     {/* Editable input for email and website */}
                                 
-                                        <input type="url" className="text-white w-full  text-sm bg-transparent border-b rounded-none  " defaultValue="http://www.caoneag.com" />
+                                        <input type="url" className="text-white w-full  text-sm bg-transparent border-b rounded-none outline-none " defaultValue="http://www.caoneag.com" />
                                   
                                 </div>
 
