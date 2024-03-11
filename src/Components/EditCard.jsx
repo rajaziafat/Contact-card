@@ -52,7 +52,7 @@ function EditCard({ onSaveClick }) {
                                     <img className="rounded w-40 cursor-pointer hover:opacity-50 duration-200 ease-in-out" src={image} alt="" onClick={() => fileInputRef.current.click()} />
                                     {/* Hidden label to trigger file input */}
                                     <label className="hidden">
-                                        <input  ref={fileInputRef} type="file" onChange={handleImageChange} accept="image/*" />
+                                        <input ref={fileInputRef} type="file" onChange={handleImageChange} accept="image/*" />
                                     </label>
                                 </div>
                             </div>
@@ -70,7 +70,8 @@ function EditCard({ onSaveClick }) {
                                             <div className='flex items-center w-full'>
 
                                                 <div className='w-full'>
-                                                    <input type="text" className="text-white w-full  p-0  text-xl font-medium  bg-transparent  border-b outline-none" defaultValue="Pascal Heimlicher" />
+                                                    <input type="text" className="text-white w-full p-0 text-xl font-medium bg-transparent border-none outline-none border-b border-white"
+                                                        defaultValue="Pascal Heimlicher" />
 
                                                     <input type="text" className="text-white  w-full p-0 text-md bg-transparent border-b outline-none" defaultValue="Aldo Luck" />
                                                 </div>
@@ -114,18 +115,18 @@ function EditCard({ onSaveClick }) {
                                 <div className='flex items-center space-x-4 w-full'>
                                     <i className="fa-solid fa-envelope text-white"></i>
                                     {/* Editable input for email and website */}
-                                 
-                                        <input type="email" className="text-white w-full text-md bg-transparent border-b outline-none" defaultValue="mail@pascalheimlicher.com" />
-                                  
+
+                                    <input type="email" className="text-white w-full text-md bg-transparent border-b outline-none" defaultValue="mail@pascalheimlicher.com" />
+
                                 </div>
 
 
                                 <div className='flex items-center space-x-4'>
                                     <i className="fa-solid fa-globe text-white"></i>
                                     {/* Editable input for email and website */}
-                                
-                                        <input type="url" className="text-white w-full  text-sm bg-transparent border-b outline-none " defaultValue="http://www.caoneag.com" />
-                                  
+
+                                    <input type="url" className="text-white w-full  text-sm bg-transparent border-b outline-none " defaultValue="http://www.caoneag.com" />
+
                                 </div>
 
                             </div>
