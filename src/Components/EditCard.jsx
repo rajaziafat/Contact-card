@@ -100,7 +100,7 @@ function EditCard({ onSaveClick }) {
                                     {/* Editable input for address */}
                                     <textarea
                                         rows="2"
-                                        className="text-white  text-md bg-transparent border-b outline-none min-w-[250px] md:min-w-[320px]">
+                                        className="text-white  text-md bg-transparent border-b outline-none min-w-[250px] md:min-w-[300px]">
                                         Sonnenbergstrasse 74, 8603 Schwerzenbach, Switzerland
                                     </textarea>
                                 </div>
