@@ -60,7 +60,7 @@ function EditCard({ onSaveClick }) {
                         <div className='col-span-12 md:col-span-7 lg:col-span-7 flex justify-start  mt-3 md:mt-0 '>
 
 
-                            <div className='space-y-3 md:pr-2 px-2  '>
+                            <div className='space-y-3 md:pr-2 px-2 pr-4 '>
                                 <div className='grid grid-cols-12 space-x-4 items-center '>
 
                                     <div className='col-span-7 md:col-span-7 lg:col-span-7  '>
