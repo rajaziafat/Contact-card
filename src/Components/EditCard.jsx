@@ -70,7 +70,7 @@ function EditCard({ onSaveClick }) {
                                             <div className='flex items-center w-full'>
 
                                                 <div className='w-full'>
-                                                    <input type="text" className="text-white w-full  p-0  text-xl font-medium  bg-transparent  border-b " defaultValue="Pascal Heimlicher" />
+                                                    <input type="text" className="text-white w-full  p-0  text-xl font-medium rounded-none  bg-transparent  border-b " defaultValue="Pascal Heimlicher" />
 
                                                     <input type="text" className="text-white  w-full p-0 text-md bg-transparent border-b " defaultValue="Aldo Luck" />
                                                 </div>
@@ -100,7 +100,7 @@ function EditCard({ onSaveClick }) {
                                     {/* Editable input for address */}
                                     <textarea
                                         rows="2"
-                                        className="text-white  text-md bg-transparent border-b  w-full md:min-w-[300px]">
+                                        className="text-white  text-md bg-transparent border-b   w-full md:min-w-[300px]">
                                         Sonnenbergstrasse 74, 8603 Schwerzenbach, Switzerland
                                     </textarea>
                                 </div>
