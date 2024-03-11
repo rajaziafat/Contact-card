@@ -34,7 +34,7 @@ function EditCard({ onSaveClick }) {
 
                 <div
 
-                    className="block max-w-[300px] md:max-w-[600px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
+                    className="block max-w-[320px] md:max-w-[600px]  md:max-h-[340px] py-4 backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20"
                 >
 
 
@@ -100,7 +100,7 @@ function EditCard({ onSaveClick }) {
                                     {/* Editable input for address */}
                                     <textarea
                                         rows="2"
-                                        className="text-white  text-md bg-transparent border-b outline-none min-w-[250px] md:min-w-[300px]">
+                                        className="text-white  text-md bg-transparent border-b outline-none min-w-[250px] md:min-w-[320px]">
                                         Sonnenbergstrasse 74, 8603 Schwerzenbach, Switzerland
                                     </textarea>
                                 </div>
