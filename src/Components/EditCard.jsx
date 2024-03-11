@@ -44,7 +44,7 @@ function EditCard({ onSaveClick }) {
 
 
                     <div className='grid grid-cols-12 space-x-2 items-center '>
-                        <div className='col-span-12 md:col-span-5 lg:col-span-5 order-last md:order-none'>
+                        <div className='col-span-12 md:col-span-5 lg:col-span-5 order-last md:order-none mt-3 md:mt-0'>
 
                             <div className='text-center'>
                                 <div className='flex justify-center '>
